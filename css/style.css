@@ -1,4 +1,3 @@
-/* ---------- Variabel warna (nama sendiri) ---------- */
 :root {
   --syahril-biru: #2563eb;
   --syahril-biru-tua: #1d4ed8;
@@ -10,7 +9,6 @@
   --syahril-putih: #ffffff;
 }
 
-/* ---------- Dasar ---------- */
 * {
   box-sizing: border-box;
 }
@@ -38,7 +36,6 @@ a {
   text-decoration: none;
 }
 
-/* Penanda fokus keyboard yang jelas */
 a:focus-visible {
   outline: 3px solid #f59e0b;
   outline-offset: 2px;
@@ -58,7 +55,6 @@ a:focus-visible {
   color: #60a5fa;
 }
 
-/* ---------- Header dan navigasi ---------- */
 #syahril_header {
   position: sticky;
   top: 0;
@@ -103,7 +99,6 @@ a:focus-visible {
   background-color: var(--syahril-biru-muda);
 }
 
-/* ---------- Hero ---------- */
 .syahril_hero {
   padding: 60px 0;
   background: linear-gradient(120deg, #f1f6ff 0%, #dbe7ff 100%);
@@ -177,7 +172,6 @@ a:focus-visible {
   background-color: var(--syahril-biru-muda);
 }
 
-/* Gambar laptop dibuat dengan CSS */
 .syahril_hero_gambar {
   flex: 1;
   position: relative;
@@ -221,7 +215,6 @@ a:focus-visible {
   border-radius: 0 0 14px 14px;
 }
 
-/* ---------- Judul bagian ---------- */
 .syahril_judul {
   position: relative;
   margin: 0 0 24px;
@@ -241,7 +234,6 @@ a:focus-visible {
   background-color: var(--syahril-biru);
 }
 
-/* ---------- About ---------- */
 .syahril_about {
   padding: 50px 0 30px;
 }
@@ -270,7 +262,6 @@ a:focus-visible {
   color: var(--syahril-abu);
 }
 
-/* Taruh foto di images/foto.jpg. Jika belum ada, tampil warna gradasi. */
 .syahril_foto {
   width: 260px;
   height: 300px;
@@ -282,7 +273,6 @@ a:focus-visible {
   background-repeat: no-repeat;
 }
 
-/* ---------- Skills ---------- */
 .syahril_skills {
   padding: 30px 0;
 }
@@ -316,8 +306,6 @@ a:focus-visible {
   border-radius: 6px;
 }
 
-
-/* ---------- Projects ---------- */
 .syahril_projects {
   padding: 30px 0 60px;
 }
@@ -344,8 +332,11 @@ a:focus-visible {
 }
 
 .syahril_thumb_1 { background: linear-gradient(135deg, #bfdbfe, #dbeafe); }
+
 .syahril_thumb_2 { background: linear-gradient(135deg, #bbf7d0, #dcfce7); }
+
 .syahril_thumb_3 { background: linear-gradient(135deg, #fde68a, #fef3c7); }
+
 .syahril_thumb_4 { background: linear-gradient(135deg, #c7d2fe, #e0e7ff); }
 
 .syahril_project_isi {
@@ -376,7 +367,6 @@ a:focus-visible {
   text-decoration: underline;
 }
 
-/* ---------- Footer ---------- */
 #syahril_footer {
   padding: 20px 0;
   color: var(--syahril-putih);
@@ -397,7 +387,7 @@ a:focus-visible {
   display: flex;
   flex-direction: column;
   padding-right: 24px;
-  border-right: 1px solid #94a3b8; /* garis pemisah vertikal */
+  border-right: 1px solid #94a3b8; 
 }
 
 .syahril_footer_brand small {
@@ -418,7 +408,6 @@ a:focus-visible {
   color: #cbd5e1;
 }
 
-/* ---------- Responsif ---------- */
 @media (max-width: 900px) {
   .syahril_skill_grid {
     grid-template-columns: repeat(3, 1fr);
